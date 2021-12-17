@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>website</title>
+    <title>Marketing and Web Development</title>
 </head>
 
 <!-- I moved the "header" class into a separate element since "header" is typically its own element -->
@@ -27,11 +27,14 @@
 </header>
 
 <body>
-    <div class="hero"></div>
+    <!-- The image should not have been a background for a class but rather we should input an image as an element and then assign a class to the image if we wish to format in css -->
+    <img src="./assets/images/digital-marketing-meeting.jpg" class="hero"/>
 
     <div class="content">
         <!-- All three classes within "content" were changed to "paragraphBody" in order to simplify css code, since they are all formatted the same -->
-        <div class="paragraphBody">
+
+        <!-- Search-engine-optimization id was added to the first paragraph to allow for quick access to this section on the web application -->
+        <div id="search-engine-optimization" class="paragraphBody">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
@@ -39,8 +42,7 @@
             </p>
         </div>
 
-        <!-- id is never called in the css so it was removed -->
-        <div class="paragraphBody">
+        <div id="online-reputation-management" class="paragraphBody">
             <img src="./assets/images/online-reputation-management.jpg" class="float-right" />
             <h2>Online Reputation Management</h2>
             <p>
@@ -48,8 +50,7 @@
             </p>
         </div>
 
-        <!-- id is never called in the css so it was removed -->
-        <div class="paragraphBody">
+        <div id="social-media-marketing" class="paragraphBody">
             <img src="./assets/images/social-media-marketing.jpg" class="float-left" />
             <h2>Social Media Marketing</h2>
             <p>
@@ -59,21 +60,22 @@
     </div>
     
     <div class="benefits">
-        <div class="benefit-lead">
+        <!-- All the classes under "benefits" were streamlined to one class since they share the same format -->
+        <div class="benefitComponent">
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" />
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
         </div>
-        <div class="benefit-brand">
+        <div class="benefitComponent">
             <h3>Brand Awareness</h3>
             <img src="./assets/images/brand-awareness.png" />
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
         </div>
-        <div class="benefit-cost">
+        <div class="benefitComponent">
             <h3>Cost Management</h3>
             <img src="./assets/images/cost-management.png" />
             <p>

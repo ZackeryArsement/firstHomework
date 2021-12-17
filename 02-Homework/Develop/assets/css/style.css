@@ -52,11 +52,11 @@ p {
     font-size: 16px;
 }
 
+/* The background image of "hero" was removed since the image is now its own element */
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -86,8 +86,10 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+}
 
-    /* I converged the three sections for benefits lead, brand and cost and moved the styling into benefits since they already applied to all parts of benefits */
+  /* I converged the three sections for benefits lead, brand and cost and moved the styling into benefits since they already applied to all parts of benefits */
+.benefitComponent{
     margin-bottom: 32px;
     color: #ffffff;
 }
