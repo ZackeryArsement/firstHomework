@@ -29,3 +29,5 @@ The purpose of this homework was to revise an existing webiste's html and css co
 https://zackeryarsement.github.io/firstHomework/
 
 # Screenshot of Final Wep Application
+
+![Website Screenshot](./Develop/assets/images/HoriseonWebApplicationImage.png)
